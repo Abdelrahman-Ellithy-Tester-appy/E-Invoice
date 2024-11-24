@@ -16,7 +16,7 @@ public class DashboardPage {
         driverAction=new DriverActions(driver);
     }
     public String getPageTitle(){
-        return driverAction.getAttributeValue(TitleElement,"content-desc");
+        return driverAction.getAttributeValue(TitleElement,"content-desc",10,200);
     }
     public TransactionPage navigateToTransactionPage(){
         driverAction.clickOnElement(transactionElement);

@@ -17,7 +17,6 @@ public class LoginPage {
 
     private final By usernameElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(0)");
     private final By passwordElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(1)");
-
     private final By branchElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(2)");
     private final By storeElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(3)");
     private final By cacheRegisterElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(4)");
@@ -31,22 +30,23 @@ public class LoginPage {
     public void setUsername(String username){
         driverActions.clickOnElement(usernameElement);
         driverActions.sendData(usernameElement,username);
+        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
     }
     public void setPassword(String password){
         driverActions.clickOnElement(passwordElement);
         driverActions.sendData(passwordElement,password);
+        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
     }
 
     public void setBranch(DropDownOptions option ) {
         driverActions.clickOnElement(branchElement);
         driverActions.clickOnElement(LocatorsMap.getKeyName(option));
-        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 
     }
     public void setStore( DropDownOptions option) {
         driverActions.clickOnElement(storeElement);
-        //driverActions.clickOnElement(AppiumBy.xpath("//android.widget.Button[contains(@content-desc,"+store+")]"));
         driverActions.clickOnElement(LocatorsMap.getKeyName(option));
+        //driverActions.clickOnElement(AppiumBy.xpath("//android.widget.Button[contains(@content-desc,"+store+")]"));
     }
     public void setCacheRegister(DropDownOptions option ) {
         driverActions.clickOnElement(cacheRegisterElement);

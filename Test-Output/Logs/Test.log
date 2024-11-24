@@ -1,0 +1,311 @@
+2024-11-24 20:02:45 DEBUG TestNG - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\E-Invoice\TestRunner.xml"
+2024-11-24 20:02:45 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.SetUp()[pri:0, instance:null] -1847264985
+2024-11-24 20:02:45 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:null] 1041438139
+2024-11-24 20:02:45 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -338444484
+2024-11-24 20:02:45 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ADDING NODE BaseTest.tareDown()[pri:0, instance:null] 137009089
+2024-11-24 20:02:45 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.SetUp()[pri:0, instance:Tests.PosSellInvoiceTests@89ff02e] -1285940249
+2024-11-24 20:02:45 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:45 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:46 TRACE Graph - [Graph] ADDING NODE PosSellInvoiceTests.PrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@89ff02e] 83455970
+2024-11-24 20:02:46 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:46 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:46 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:46 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:46 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:Tests.PosSellInvoiceTests@89ff02e] -1930456621
+2024-11-24 20:02:46 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:02:46 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:02:46 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:02:46 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:02:46 INFO  logsUtils - [94mGetting Timestamp: 2024-11-24[0m
+2024-11-24 20:02:46 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:46 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-11-24 20:02:46 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
+2024-11-24 20:02:46 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-24 20:02:46 INFO  logsUtils - [38;5;200m[SUITE STARTED]: FRAMEWORK TEST [SUITE STARTED][0m
+2024-11-24 20:02:46 INFO  logsUtils - [95m[ALL TESTS STARTED]: ِMOBILE ANDROID [ALL TESTS STARTED][0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:46 INFO  logsUtils - [94mReading value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully read value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:02:46 INFO  logsUtils - [94mReading value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully read value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:02:46 INFO  logsUtils - [94mReading value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully read value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:02:46 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:53 INFO  logsUtils - [94mMethod executed: manage, Arguments: [][0m
+2024-11-24 20:02:53 INFO  logsUtils - [92mDriver Created[0m
+2024-11-24 20:02:53 INFO  logsUtils - [94m[START] TESTCASE PrintInvoice [STARTED][0m
+2024-11-24 20:02:53 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:53 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:53 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mLocator used: AppiumBy.className: android.widget.Switch[0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:54 INFO  logsUtils - [94mLocator used: AppiumBy.className: android.widget.Switch[0m
+2024-11-24 20:02:54 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:54 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mLocator used: By.xpath: //android.widget.Button[@content-desc="Local - داخلي" or @content-desc="Server - خارجي" ][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:55 INFO  logsUtils - [94mLocator used: By.xpath: //android.widget.Button[@content-desc="Local - داخلي" or @content-desc="Server - خارجي" ][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Server - خارجي[0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:56 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Server - خارجي[0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Retrieve Database[0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:02:57 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Retrieve Database[0m
+2024-11-24 20:02:58 INFO  logsUtils - [94mMethod executed: manage, Arguments: [][0m
+2024-11-24 20:02:58 INFO  logsUtils - [94mMethod executed: execute, Arguments: [getCurrentWindowSize][0m
+2024-11-24 20:02:58 INFO  logsUtils - [94mMethod executed: manage, Arguments: [][0m
+2024-11-24 20:02:58 INFO  logsUtils - [94mMethod executed: execute, Arguments: [getCurrentWindowSize][0m
+2024-11-24 20:02:59 INFO  logsUtils - [94mMethod executed: executeScript, Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@222acad][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: SAVE SETTINGS[0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:00 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: SAVE SETTINGS[0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Save[0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Save[0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:02 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: Save[0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mWaiting for Element To Disappear: AppiumBy.accessibilityId: Save[0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mReading value for key: username from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:03:13 INFO  logsUtils - [92mSuccessfully read value for key: username from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:03:13 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:03:13 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:13 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-24 20:03:15 INFO  logsUtils - [94mMethod executed: assertExtensionExists, Arguments: [mobile: pressKey][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mMethod executed: execute, Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mMethod executed: pressKey, Arguments: [io.appium.java_client.android.nativekey.KeyEvent@6f315b08][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mReading value for key: password from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:03:16 INFO  logsUtils - [92mSuccessfully read value for key: password from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:16 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-24 20:03:17 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:17 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:17 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:17 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:17 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-24 20:03:18 INFO  logsUtils - [94mMethod executed: assertExtensionExists, Arguments: [mobile: pressKey][0m
+2024-11-24 20:03:19 INFO  logsUtils - [94mMethod executed: execute, Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-24 20:03:19 INFO  logsUtils - [94mMethod executed: pressKey, Arguments: [io.appium.java_client.android.nativekey.KeyEvent@28989415][0m
+2024-11-24 20:03:19 INFO  logsUtils - [94mMethod executed: manage, Arguments: [][0m
+2024-11-24 20:03:19 INFO  logsUtils - [94mMethod executed: execute, Arguments: [getCurrentWindowSize][0m
+2024-11-24 20:03:19 INFO  logsUtils - [94mMethod executed: manage, Arguments: [][0m
+2024-11-24 20:03:19 INFO  logsUtils - [94mMethod executed: execute, Arguments: [getCurrentWindowSize][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: executeScript, Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@5fb8dc01][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(2)[0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:21 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(2)[0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: shereen branch-bill - فرع شيرين-سند[0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:23 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: shereen branch-bill - فرع شيرين-سند[0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(3)[0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:24 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(3)[0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: shereen branch-bill - فرع شيرين-سند[0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:25 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: shereen branch-bill - فرع شيرين-سند[0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(4)[0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:26 INFO  logsUtils - [94mLocator used: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(4)[0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: shereen branch-bill - فرع شيرين-سند[0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:28 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: shereen branch-bill - فرع شيرين-سند[0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: LOGIN[0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mMethod executed: getFileDetector, Arguments: [][0m
+2024-11-24 20:03:29 INFO  logsUtils - [94mLocator used: AppiumBy.accessibilityId: LOGIN[0m
+2024-11-24 20:03:30 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:03:30 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-24 20:03:30 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
+2024-11-24 20:03:40 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:40 INFO  logsUtils - [94mMethod executed: getSessionId, Arguments: [][0m
+2024-11-24 20:03:40 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:40 INFO  logsUtils - [94mMethod executed: getCapabilities, Arguments: [][0m
+2024-11-24 20:03:41 INFO  logsUtils - [94mMethod executed: execute, Arguments: [screenshot][0m
+2024-11-24 20:03:41 INFO  logsUtils - [94mMethod executed: getScreenshotAs, Arguments: [OutputType.FILE][0m
+2024-11-24 20:03:41 INFO  logsUtils - [94mGetting Timestamp: 2024-11-24-8-3-41PM[0m
+2024-11-24 20:03:41 INFO  logsUtils - [91m[FAILED] TESTCASE PrintInvoice [FAILED][0m
+2024-11-24 20:03:41 INFO  logsUtils - [94mMethod executed: execute, Arguments: [quit][0m
+2024-11-24 20:03:41 INFO  logsUtils - [94mDriver quit[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-11-24 20:03:41 INFO  logsUtils - Log file successfully attached to the Allure report.
+2024-11-24 20:03:41 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: ِMOBILE ANDROID [ALL TESTS COMPLETED][0m
+2024-11-24 20:03:41 INFO  logsUtils - [38;5;200m[SUITE FINISHED]: FRAMEWORK TEST [SUITE FINISHED][0m
+2024-11-24 20:03:41 TRACE Graph - [Graph] ADDING NODE PosSellInvoiceTests.PrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@89ff02e] 83455970
+2024-11-24 20:03:41 TRACE Graph - [Graph] ================ SORTING
+2024-11-24 20:03:41 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-24 20:03:41 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-24 20:03:41 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-24 20:03:41 INFO  logsUtils - [94mTotal Execution Time is: 0 Min 55 Sec 577 Mills[0m
+2024-11-24 20:03:41 INFO  logsUtils - [94m------------------------------------------[0m
+2024-11-24 20:03:41 INFO  logsUtils - [96m------- Ellithium  Engine TearDown -------[0m
+2024-11-24 20:03:41 INFO  logsUtils - [94m------------------------------------------[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
+2024-11-24 20:03:41 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
+2024-11-24 20:03:44 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
+2024-11-24 20:03:44 INFO  logsUtils - [94mGetting Timestamp: 2024-11-24-8-3-44PM[0m
+2024-11-24 20:03:44 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-24 20:03:44 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-11-24-8-3-44PM.html[0m
+2024-11-24 20:03:45 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m

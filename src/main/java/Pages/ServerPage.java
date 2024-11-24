@@ -23,6 +23,7 @@ public class ServerPage {
     }
     public LoginPage clickSaveSettingsBtn(){
         driverActions.clickOnElement(saveSettingsBtn);
+        driverActions.waitForElementToDisappear(AppiumBy.accessibilityId("Save"));
         return new LoginPage(driver);
     }
 }
