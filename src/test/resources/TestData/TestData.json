@@ -1,0 +1,7 @@
+{
+  "DeviceName": "Xiaomi Redmi Note 8",
+  "AppActivity":"com.appyinnovate.e_invoice.MainActivity",
+  "AppPackage": "com.appyinnovate.e_invoice",
+  "username": "admin",
+  "password": "123"
+}
