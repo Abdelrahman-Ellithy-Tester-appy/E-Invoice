@@ -4,7 +4,7 @@ target/
 !**/src/test/**/target/
 
 
-src/test/resources/TestData/TestData
+src/test/resources/TestData/TestData.json
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
