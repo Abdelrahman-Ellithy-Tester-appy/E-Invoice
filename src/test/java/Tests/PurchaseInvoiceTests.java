@@ -9,7 +9,7 @@ import utility.ScrollingUtils;
 
 public class PurchaseInvoiceTests extends BaseTest {
     @Test(description = "Test User is able to print purchase Invoice")
-    public void PrintInvoice(){
+    public void PurchasePrintInvoice(){
         LoginPage loginPage=new LoginPage(driver);
         var serverPage=loginPage.clickSwitchBtn();
         serverPage.selectMode(ServerMode.SERVER_MODE);
@@ -46,7 +46,7 @@ public class PurchaseInvoiceTests extends BaseTest {
         softAssert.assertAll();
     }
     @Test(description = "Test User is able to Post purchase Invoice")
-    public void PostInvoice(){
+    public void PurchasePostInvoice(){
         LoginPage loginPage=new LoginPage(driver);
         var serverPage=loginPage.clickSwitchBtn();
         serverPage.selectMode(ServerMode.SERVER_MODE);
@@ -75,7 +75,6 @@ public class PurchaseInvoiceTests extends BaseTest {
         ScrollingUtils.scrollDown(driver);
         invoicePage.addProduct(JsonHelper.getJsonKeyValue(JsonDataFilePath,"barcode"));
         invoicePage.saveInvoice();
-        invoicePage.clickYesToWarning();
         invoicePage.postInvoice();
         invoicePage.clickYesToWarning();
         softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible());

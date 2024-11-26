@@ -9,20 +9,8 @@ import utility.ScrollingUtils;
 
 public class PosSellInvoiceTests extends BaseTest {
     @Test(description = "Test User is able to print Sell Invoice")
-    public void PrintInvoice(){
-        LoginPage loginPage=new LoginPage(driver);
-        var serverPage=loginPage.clickSwitchBtn();
-        serverPage.selectMode(ServerMode.SERVER_MODE);
-        serverPage.clickRetrieveDB();
-        ScrollingUtils.scrollDown(driver);
-        loginPage=serverPage.clickSaveSettingsBtn();
-        loginPage.setUsername(JsonHelper.getJsonKeyValue(JsonDataFilePath,"username"));
-        ScrollingUtils.scrollDown(driver);
-        loginPage.setPassword(JsonHelper.getJsonKeyValue(JsonDataFilePath,"password"));
-        loginPage.setBranch(DropDownOptions.Company_Building_1);
-        loginPage.setStore(DropDownOptions.Company_Building_1);
-        loginPage.setCacheRegister(DropDownOptions.Company_Building_1);
-        DashboardPage dashboardPage=loginPage.clickLoginBtn();
+    public void POSPrintInvoice(){
+        DashboardPage dashboardPage=loginRoutine();
         AssertionExecutor.soft softAssert = new AssertionExecutor.soft();
         String actualTitle=dashboardPage.getPageTitle();
         String expectedTitle="Dashboard";
@@ -47,20 +35,8 @@ public class PosSellInvoiceTests extends BaseTest {
         softAssert.assertAll();
     }
     @Test(description = "Test User is able to post Sell Invoice")
-    public void PostInvoice(){
-        LoginPage loginPage=new LoginPage(driver);
-        var serverPage=loginPage.clickSwitchBtn();
-        serverPage.selectMode(ServerMode.SERVER_MODE);
-        serverPage.clickRetrieveDB();
-        ScrollingUtils.scrollDown(driver);
-        loginPage=serverPage.clickSaveSettingsBtn();
-        loginPage.setUsername(JsonHelper.getJsonKeyValue(JsonDataFilePath,"username"));
-        ScrollingUtils.scrollDown(driver);
-        loginPage.setPassword(JsonHelper.getJsonKeyValue(JsonDataFilePath,"password"));
-        loginPage.setBranch(DropDownOptions.Company_Building_1);
-        loginPage.setStore(DropDownOptions.Company_Building_1);
-        loginPage.setCacheRegister(DropDownOptions.Company_Building_1);
-        DashboardPage dashboardPage=loginPage.clickLoginBtn();
+    public void POSPostInvoice(){
+        DashboardPage dashboardPage=loginRoutine();
         AssertionExecutor.soft softAssert = new AssertionExecutor.soft();
         String actualTitle=dashboardPage.getPageTitle();
         String expectedTitle="Dashboard";
@@ -78,6 +54,7 @@ public class PosSellInvoiceTests extends BaseTest {
         invoicePage.saveInvoice();
         invoicePage.clickYesToWarning();
         invoicePage.postInvoice();
+        invoicePage.clickYesToWarning();
         softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible());
         softAssert.assertAll();
     }

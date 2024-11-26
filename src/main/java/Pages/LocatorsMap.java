@@ -9,6 +9,7 @@ public class LocatorsMap {
     private static final Map<DropDownOptions, By> OptionsKeyMap;
     private static final Map<ServerMode, By> ServerKeyMap;
     private static final Map<Client, By> ClientKeyMap;
+    private static final Map<DB, By> DBKeyMap;
     static {
         OptionsKeyMap = Map.ofEntries(
                 Map.entry(DropDownOptions.Company_Building_1, AppiumBy.accessibilityId("Company Building1 - مباني المؤسسة1")),
@@ -23,6 +24,11 @@ public class LocatorsMap {
                 Map.entry(Client.ghhhhhhkhh, AppiumBy.accessibilityId("ghhhhhhkhh - khhhghh")),
                 Map.entry(Client.Mohammed_Abdelgwad, AppiumBy.accessibilityId("محمد عبدالجواد - Mohammed Abdelgwad"))
         );
+        DBKeyMap=Map.ofEntries(
+                Map.entry(DB.NADA922, AppiumBy.accessibilityId("StoreDB_506_Nada0922")),
+                Map.entry(DB.NADA_9022, AppiumBy.accessibilityId("StoreDB_506_Nada_0922")),
+                Map.entry(DB.test20240921, AppiumBy.accessibilityId("20240921test"))
+        );
     }
     public static By getKeyName(DropDownOptions option) {
         return OptionsKeyMap.get(option);
@@ -32,5 +38,8 @@ public class LocatorsMap {
     }
     public static By getKeyName(Client client) {
         return ClientKeyMap.get(client);
+    }
+    public static By getKeyName(DB db) {
+        return DBKeyMap.get(db);
     }
 }

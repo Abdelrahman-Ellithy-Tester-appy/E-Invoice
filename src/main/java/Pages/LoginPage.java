@@ -12,6 +12,7 @@ import java.util.Map;
 public class LoginPage {
     private final AndroidDriver driver;
     private final DriverActions driverActions;
+    private final By loginTitle=AppiumBy.androidUIAutomator("new UiSelector().description(\"Login\").instance(0)");
     private final By switchBtn= AppiumBy.className("android.widget.Switch");
     private final By usernameElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(0)");
     private final By passwordElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(1)");
@@ -19,9 +20,11 @@ public class LoginPage {
     private final By storeElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(3)");
     private final By cacheRegisterElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(4)");
     private final By loginBtn= AppiumBy.accessibilityId("LOGIN");
+    private final By dbDropDown= AppiumBy.accessibilityId("20240921test");
     public LoginPage(AndroidDriver driver){
         this.driver=driver;
         this.driverActions=new DriverActions(driver);
+        returnHome();
     }
     public void setUsername(String username){
         driverActions.clickOnElement(usernameElement);
@@ -53,6 +56,10 @@ public class LoginPage {
         //driverActions.clickOnElement(AppiumBy.xpath("//android.widget.Button[contains(@content-desc,"+cacheRegister+")]"));
         //driver.pressKey(new KeyEvent(AndroidKey.ENTER));
     }
+    public void selectDB(DB db) {
+        driverActions.clickOnElement(dbDropDown);
+        driverActions.clickOnElement(LocatorsMap.getKeyName(db));
+    }
     public ServerPage clickSwitchBtn(){
         driverActions.clickOnElement(switchBtn);
         return new ServerPage(driver);
@@ -61,4 +68,16 @@ public class LoginPage {
         driverActions.clickOnElement(loginBtn);
         return new DashboardPage(driver);
     }
+    private void returnHome(){
+            boolean visible=false;
+            while (!visible){
+                try {
+                    driverActions.waitForElementToBeVisible(loginTitle,1,200);
+                    visible=driver.findElement(loginTitle).isDisplayed();
+                }
+                catch (Exception e){
+                    driverActions.navigateBack();
+                }
+            }
+        }
 }

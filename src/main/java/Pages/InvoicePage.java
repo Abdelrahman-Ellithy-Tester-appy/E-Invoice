@@ -70,7 +70,7 @@ public class InvoicePage {
     }
     public String getPurchasePDFPageTitle(){
         try {
-            return driverAction.getAttributeValue(PurchasePDFElement, "content-desc", 10, 200);
+            return driverAction.getAttributeValue(PurchasePDFElement, "content-desc", 12, 200);
         }
         catch (Exception e){
             throw new AssertionError();

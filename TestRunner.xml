@@ -2,6 +2,7 @@
 <suite name="Framework Test" verbose="1" data-provider-thread-count="1" >
     <test name="ِMobile Android">
         <classes>
+            <class name="Tests.PosSellInvoiceTests"></class>
             <class name="Tests.PurchaseInvoiceTests"></class>
         </classes>
     </test>
