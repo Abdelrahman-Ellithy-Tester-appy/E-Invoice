@@ -16,9 +16,9 @@ public class BaseInvoicesPage {
         this.driver=driverParam;
         driverActions=new DriverActions(driver);
     }
-    public InvoicePage clickAddBtn(){
+    public PosInvoicePage clickAddBtn(){
         driverActions.clickOnElement(addElement);
-        return new InvoicePage(driver);
+        return new PosInvoicePage(driver);
     }
     public void clickBack(){
         driverActions.clickOnElement(addElement);

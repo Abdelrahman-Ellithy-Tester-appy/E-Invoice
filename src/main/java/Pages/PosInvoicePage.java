@@ -7,7 +7,7 @@ import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.openqa.selenium.By;
 
-public class InvoicePage {
+public class PosInvoicePage {
     private AndroidDriver driver;
     private DriverActions driverAction;
     private final By saveElement= AppiumBy.accessibilityId("Save");
@@ -20,7 +20,7 @@ public class InvoicePage {
     private final By printElement=AppiumBy.accessibilityId("Print");
     private final By postElement= AppiumBy.accessibilityId("Post");
     private final By loadingElement= AppiumBy.xpath("//*[contains(@content-desc, 'Loading')]");
-    public InvoicePage(AndroidDriver driver){
+    public PosInvoicePage(AndroidDriver driver){
         this.driver=driver;
         driverAction=new DriverActions(this.driver);
         driverAction.waitForElementToDisappear(loadingElement,10,200);
