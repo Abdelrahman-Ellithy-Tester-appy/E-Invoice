@@ -11,7 +11,7 @@ public class LocatorsMap {
     private static final Map<Client, By> ClientKeyMap;
     static {
         OptionsKeyMap = Map.ofEntries(
-                Map.entry(DropDownOptions.Company_Building_1, AppiumBy.accessibilityId("Company Building 1 - مباني المؤسسة 1")),
+                Map.entry(DropDownOptions.Company_Building_1, AppiumBy.accessibilityId("Company Building1 - مباني المؤسسة1")),
                 Map.entry(DropDownOptions.Main, AppiumBy.accessibilityId("Main Branch - فرع رئيسي")),
                 Map.entry(DropDownOptions.shereen_branch_bill, AppiumBy.accessibilityId("shereen branch-bill - فرع شيرين-سند"))
         );

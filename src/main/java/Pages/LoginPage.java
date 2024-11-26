@@ -12,17 +12,13 @@ import java.util.Map;
 public class LoginPage {
     private final AndroidDriver driver;
     private final DriverActions driverActions;
-
     private final By switchBtn= AppiumBy.className("android.widget.Switch");
-
     private final By usernameElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(0)");
     private final By passwordElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(1)");
     private final By branchElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(2)");
     private final By storeElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(3)");
     private final By cacheRegisterElement=AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(4)");
-
     private final By loginBtn= AppiumBy.accessibilityId("LOGIN");
-
     public LoginPage(AndroidDriver driver){
         this.driver=driver;
         this.driverActions=new DriverActions(driver);
@@ -41,16 +37,19 @@ public class LoginPage {
     public void setBranch(DropDownOptions option ) {
         driverActions.clickOnElement(branchElement);
         driverActions.clickOnElement(LocatorsMap.getKeyName(option));
+        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 
     }
     public void setStore( DropDownOptions option) {
         driverActions.clickOnElement(storeElement);
         driverActions.clickOnElement(LocatorsMap.getKeyName(option));
+        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
         //driverActions.clickOnElement(AppiumBy.xpath("//android.widget.Button[contains(@content-desc,"+store+")]"));
     }
     public void setCacheRegister(DropDownOptions option ) {
         driverActions.clickOnElement(cacheRegisterElement);
         driverActions.clickOnElement(LocatorsMap.getKeyName(option));
+        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
         //driverActions.clickOnElement(AppiumBy.xpath("//android.widget.Button[contains(@content-desc,"+cacheRegister+")]"));
         //driver.pressKey(new KeyEvent(AndroidKey.ENTER));
     }

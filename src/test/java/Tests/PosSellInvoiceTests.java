@@ -17,11 +17,11 @@ public class PosSellInvoiceTests extends BaseTest {
         ScrollingUtils.scrollDown(driver);
         loginPage=serverPage.clickSaveSettingsBtn();
         loginPage.setUsername(JsonHelper.getJsonKeyValue(JsonDataFilePath,"username"));
-        loginPage.setPassword(JsonHelper.getJsonKeyValue(JsonDataFilePath,"password"));
         ScrollingUtils.scrollDown(driver);
-        loginPage.setBranch(DropDownOptions.shereen_branch_bill);
-        loginPage.setStore(DropDownOptions.shereen_branch_bill);
-        loginPage.setCacheRegister(DropDownOptions.shereen_branch_bill);
+        loginPage.setPassword(JsonHelper.getJsonKeyValue(JsonDataFilePath,"password"));
+        loginPage.setBranch(DropDownOptions.Company_Building_1);
+        loginPage.setStore(DropDownOptions.Company_Building_1);
+        loginPage.setCacheRegister(DropDownOptions.Company_Building_1);
         DashboardPage dashboardPage=loginPage.clickLoginBtn();
         AssertionExecutor.soft softAssert = new AssertionExecutor.soft();
         String actualTitle=dashboardPage.getPageTitle();
@@ -34,7 +34,6 @@ public class PosSellInvoiceTests extends BaseTest {
         var posSellInvoicePage=transactionPage.navigateToPOSSellInvoicePage();
         var invoicePage=posSellInvoicePage.clickAddBtn();
         invoicePage.selectClient(Client.ghhhhhhkhh);
-        ScrollingUtils.scrollDown(driver);
         ScrollingUtils.scrollDown(driver);
         ScrollingUtils.scrollDown(driver);
         invoicePage.addProduct(JsonHelper.getJsonKeyValue(JsonDataFilePath,"barcode"));
