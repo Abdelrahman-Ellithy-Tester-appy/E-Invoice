@@ -7,8 +7,8 @@ import Pages.*;
 import org.testng.annotations.Test;
 import utility.ScrollingUtils;
 
-public class PosSellInvoiceTests extends BaseTest {
-    @Test(description = "Test User is able to print Sell Invoice")
+public class PurchaseInvoiceTests extends BaseTest {
+    @Test(description = "Test User is able to print purchase Invoice")
     public void PrintInvoice(){
         LoginPage loginPage=new LoginPage(driver);
         var serverPage=loginPage.clickSwitchBtn();
@@ -31,22 +31,21 @@ public class PosSellInvoiceTests extends BaseTest {
         actualTitle=transactionPage.getPageTitle();
         expectedTitle="Transactions";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
-        var posSellInvoicePage=transactionPage.navigateToPOSSellInvoicePage();
-        var invoicePage=posSellInvoicePage.clickAddBtn();
+        var purchaseInvoicePage=transactionPage.navigateToPurchaseInvoicePage();
+        var invoicePage=purchaseInvoicePage.clickAddBtn();
         invoicePage.selectClient(Client.ghhhhhhkhh);
         ScrollingUtils.scrollDown(driver);
         ScrollingUtils.scrollDown(driver);
         invoicePage.addProduct(JsonHelper.getJsonKeyValue(JsonDataFilePath,"barcode"));
         invoicePage.saveInvoice();
-        invoicePage.clickYesToWarning();
         invoicePage.printInvoice();
         invoicePage.printInvoice();
-        actualTitle=invoicePage.getPosPDFPageTitle();
-        expectedTitle="Save as PDF";
+        actualTitle=invoicePage.getPurchasePDFPageTitle();
+        expectedTitle="Purchase Invoice A4";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         softAssert.assertAll();
     }
-    @Test(description = "Test User is able to post Sell Invoice")
+    @Test(description = "Test User is able to Post purchase Invoice")
     public void PostInvoice(){
         LoginPage loginPage=new LoginPage(driver);
         var serverPage=loginPage.clickSwitchBtn();
@@ -69,8 +68,8 @@ public class PosSellInvoiceTests extends BaseTest {
         actualTitle=transactionPage.getPageTitle();
         expectedTitle="Transactions";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
-        var posSellInvoicePage=transactionPage.navigateToPOSSellInvoicePage();
-        var invoicePage=posSellInvoicePage.clickAddBtn();
+        var purchaseInvoicePage=transactionPage.navigateToPurchaseInvoicePage();
+        var invoicePage=purchaseInvoicePage.clickAddBtn();
         invoicePage.selectClient(Client.ghhhhhhkhh);
         ScrollingUtils.scrollDown(driver);
         ScrollingUtils.scrollDown(driver);
@@ -78,6 +77,7 @@ public class PosSellInvoiceTests extends BaseTest {
         invoicePage.saveInvoice();
         invoicePage.clickYesToWarning();
         invoicePage.postInvoice();
+        invoicePage.clickYesToWarning();
         softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible());
         softAssert.assertAll();
     }

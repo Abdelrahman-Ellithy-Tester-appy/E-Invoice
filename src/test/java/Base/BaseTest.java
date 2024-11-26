@@ -16,15 +16,10 @@ import java.net.URL;
 
 public class BaseTest extends NonBDDSetup {
     protected AndroidDriver driver;
-//    protected AppiumDriverLocalService serviceBuilder;
     protected String JsonDataFilePath="src/test/resources/TestData/TestData";
 
     @BeforeClass
     public void setUp() throws MalformedURLException {
-//        String appiumMainJsPath=System.getProperty("user.home").concat("\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js");
-//        serviceBuilder = new AppiumServiceBuilder().
-//                withAppiumJS(new File(appiumMainJsPath)).withIPAddress("0.0.0.0").usingPort(4723).build();
-//        serviceBuilder.start();
         UiAutomator2Options options=new UiAutomator2Options();
         options.setDeviceName(JsonHelper.getJsonKeyValue(JsonDataFilePath,"DeviceName"));
         options.setAppActivity(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppActivity"));
@@ -36,7 +31,5 @@ public class BaseTest extends NonBDDSetup {
     @AfterClass
     public void tareDown( ){
         DriverFactory.quitDriver();
-//        serviceBuilder.stop();
-//        serviceBuilder.close();
     }
 }
