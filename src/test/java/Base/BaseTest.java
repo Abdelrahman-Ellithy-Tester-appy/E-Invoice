@@ -20,13 +20,13 @@ public class BaseTest extends NonBDDSetup {
 
     @BeforeClass
     public void setUp() throws MalformedURLException {
-        UiAutomator2Options options=new UiAutomator2Options();
-        options.setDeviceName(JsonHelper.getJsonKeyValue(JsonDataFilePath,"DeviceName"));
-        options.setAppActivity(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppActivity"));
-        options.setAppPackage(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppPackage"));
-        options.setCapability("appium:noReset", true);
-        options.setCapability("appium:fullReset", false);
-        driver=DriverFactory.getNewDriver(DriverType.Android,new URL("http://127.0.0.1:4723"),options);
+        UiAutomator2Options caps=new UiAutomator2Options();
+        caps.setDeviceName(JsonHelper.getJsonKeyValue(JsonDataFilePath,"DeviceName"));
+        caps.setAppActivity(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppActivity"));
+        caps.setAppPackage(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppPackage"));
+        caps.setCapability("appium:noReset", true);
+        caps.setCapability("appium:fullReset", false);
+        driver=DriverFactory.getNewDriver(DriverType.Android,new URL("http://127.0.0.1:4723"),caps);
     }
     @AfterClass
     public void tareDown( ){
