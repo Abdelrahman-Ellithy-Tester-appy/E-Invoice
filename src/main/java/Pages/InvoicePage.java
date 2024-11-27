@@ -36,7 +36,7 @@ public class InvoicePage {
         driverAction.clickOnElement(itemFieldTypeElement);
         driverAction.sendData(itemFieldTypeElement,barcode);
         driver.pressKey(new KeyEvent(AndroidKey.ENTER));
-        driverAction.waitForElementToDisappear(loadingElement,10,200);
+        driverAction.waitForElementToDisappear(loadingElement,12,200);
     }
     public void postInvoice(){
         try {

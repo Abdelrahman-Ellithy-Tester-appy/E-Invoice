@@ -6,7 +6,6 @@ import Ellithium.Utilities.helpers.JsonHelper;
 import Pages.*;
 import org.testng.annotations.Test;
 import utility.ScrollingUtils;
-
 public class PosSellInvoiceTests extends BaseTest {
     @Test(description = "Test User is able to print Sell Invoice")
     public void POSPrintInvoice(){

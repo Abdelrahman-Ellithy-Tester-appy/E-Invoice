@@ -22,13 +22,13 @@ import java.net.URL;
 public class BaseTest extends NonBDDSetup {
     protected AndroidDriver driver;
     protected String JsonDataFilePath="src/test/resources/TestData/TestData";
-    @BeforeMethod
+    @BeforeClass
     public void setUp() throws MalformedURLException {
         UiAutomator2Options caps=new UiAutomator2Options();
         caps.setDeviceName(JsonHelper.getJsonKeyValue(JsonDataFilePath,"DeviceName"));
         caps.setAppActivity(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppActivity"));
         caps.setAppPackage(JsonHelper.getJsonKeyValue(JsonDataFilePath,"AppPackage"));
-        caps.setCapability("appium:noReset", false);
+        caps.setCapability("appium:noReset", true);
         caps.setCapability("appium:fullReset", false);
         driver=DriverFactory.getNewDriver(DriverType.Android,new URL("http://127.0.0.1:4723"),caps);
     }
@@ -49,7 +49,7 @@ public class BaseTest extends NonBDDSetup {
         loginPage.setCacheRegister(DropDownOptions.Company_Building_1);
         return loginPage.clickLoginBtn();
     }
-    @AfterMethod
+    @AfterClass
     public void tareDown( ){
         DriverFactory.quitDriver();
     }
