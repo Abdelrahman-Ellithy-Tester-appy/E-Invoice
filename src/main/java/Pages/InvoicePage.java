@@ -24,7 +24,7 @@ public class InvoicePage {
     public InvoicePage(AndroidDriver driver){
         this.driver=driver;
         driverAction=new DriverActions(this.driver);
-        driverAction.waitForElementToDisappear(loadingElement,10,200);
+        driverAction.waitForElementToDisappear(loadingElement,20,200);
     }
     public void selectClient(Client client){
         driverAction.clickOnElement(selectElement);

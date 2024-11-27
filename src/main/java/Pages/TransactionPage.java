@@ -17,6 +17,7 @@ public class TransactionPage {
     public TransactionPage(AndroidDriver driver1){
         this.driver=driver1;
         driverAction=new DriverActions(driver);
+        returnHome();
     }
     public String getPageTitle(){
         return driverAction.getAttributeValue(TitleElement,"content-desc");
@@ -40,5 +41,17 @@ public class TransactionPage {
     public PurchaseInvoicePage navigateToPurchaseInvoicePage(){
         driverAction.clickOnElement(PurchaseInvoiceElement);
         return new PurchaseInvoicePage(driver);
+    }
+    private void returnHome(){
+        boolean visible=false;
+        while (!visible){
+            try {
+                driverAction.waitForElementToBeVisible(TitleElement,1,200);
+                visible=driver.findElement(TitleElement).isDisplayed();
+            }
+            catch (Exception e){
+                driverAction.navigateBack();
+            }
+        }
     }
 }

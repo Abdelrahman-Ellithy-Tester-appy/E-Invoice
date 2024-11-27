@@ -3,20 +3,17 @@ package Tests;
 import Base.BaseTest;
 import Ellithium.Utilities.assertion.AssertionExecutor;
 import Ellithium.Utilities.helpers.JsonHelper;
+import Ellithium.core.execution.Analyzer.RetryAnalyzer;
 import Pages.*;
 import org.testng.annotations.Test;
 import utility.ScrollingUtils;
 public class PosSellInvoiceTests extends BaseTest {
-    @Test(description = "Test User is able to print Sell Invoice")
+    @Test(description = "Test User is able to print Sell Invoice", dependsOnMethods ="validLogin",retryAnalyzer = RetryAnalyzer.class)
     public void POSPrintInvoice(){
-        DashboardPage dashboardPage=loginRoutine();
-        AssertionExecutor.soft softAssert = new AssertionExecutor.soft();
-        String actualTitle=dashboardPage.getPageTitle();
-        String expectedTitle="Dashboard";
-        softAssert.assertTrue(actualTitle.contains(expectedTitle));
-        var transactionPage=dashboardPage.navigateToTransactionPage();
-        actualTitle=transactionPage.getPageTitle();
-        expectedTitle="Transactions";
+        AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
+        var transactionPage=new TransactionPage(driver);
+        String actualTitle=transactionPage.getPageTitle();
+        String expectedTitle="Transactions";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         var posSellInvoicePage=transactionPage.navigateToPOSSellInvoicePage();
         var invoicePage=posSellInvoicePage.clickAddBtn();
@@ -33,16 +30,12 @@ public class PosSellInvoiceTests extends BaseTest {
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         softAssert.assertAll();
     }
-    @Test(description = "Test User is able to post Sell Invoice")
+    @Test(description = "Test User is able to post Sell Invoice",dependsOnMethods = "validLogin",retryAnalyzer = RetryAnalyzer.class)
     public void POSPostInvoice(){
-        DashboardPage dashboardPage=loginRoutine();
-        AssertionExecutor.soft softAssert = new AssertionExecutor.soft();
-        String actualTitle=dashboardPage.getPageTitle();
-        String expectedTitle="Dashboard";
-        softAssert.assertTrue(actualTitle.contains(expectedTitle));
-        var transactionPage=dashboardPage.navigateToTransactionPage();
-        actualTitle=transactionPage.getPageTitle();
-        expectedTitle="Transactions";
+        AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
+        var transactionPage=new TransactionPage(driver);
+        String actualTitle=transactionPage.getPageTitle();
+        String expectedTitle="Transactions";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         var posSellInvoicePage=transactionPage.navigateToPOSSellInvoicePage();
         var invoicePage=posSellInvoicePage.clickAddBtn();

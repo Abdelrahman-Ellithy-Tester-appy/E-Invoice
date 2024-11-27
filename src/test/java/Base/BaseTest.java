@@ -1,5 +1,6 @@
 package Base;
 
+import Ellithium.Utilities.assertion.AssertionExecutor;
 import Ellithium.Utilities.helpers.JsonHelper;
 import Ellithium.core.base.NonBDDSetup;
 import Ellithium.core.driver.DriverFactory;
@@ -9,10 +10,8 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
+import org.testng.asserts.SoftAssert;
 import utility.ScrollingUtils;
 
 import java.io.File;
@@ -31,23 +30,6 @@ public class BaseTest extends NonBDDSetup {
         caps.setCapability("appium:noReset", true);
         caps.setCapability("appium:fullReset", false);
         driver=DriverFactory.getNewDriver(DriverType.Android,new URL("http://127.0.0.1:4723"),caps);
-    }
-    protected DashboardPage loginRoutine(){
-        LoginPage loginPage=new LoginPage(driver);
-        var serverPage=loginPage.clickSwitchBtn();
-        serverPage.selectMode(ServerMode.SERVER_MODE);
-        serverPage.clickRetrieveDB();
-        ScrollingUtils.scrollDown(driver);
-        loginPage.selectDB(DB.NADA922);
-        loginPage=serverPage.clickSaveSettingsBtn();
-        loginPage.setUsername(JsonHelper.getJsonKeyValue(JsonDataFilePath,"username"));
-        loginPage.setPassword(JsonHelper.getJsonKeyValue(JsonDataFilePath,"password"));
-        ScrollingUtils.scrollDown(driver);
-        ScrollingUtils.scrollDown(driver);
-        loginPage.setBranch(DropDownOptions.Company_Building_1);
-        loginPage.setStore(DropDownOptions.Company_Building_1);
-        loginPage.setCacheRegister(DropDownOptions.Company_Building_1);
-        return loginPage.clickLoginBtn();
     }
     @AfterClass
     public void tareDown( ){
