@@ -11,7 +11,7 @@ import utility.ScrollingUtils;
 
 public class ClientVendorTests extends BaseTest {
     @Test(description = "Test User is able to Post client debit",dependsOnMethods = "validLogin",retryAnalyzer = RetryAnalyzer.class)
-    public void PurchasePostInvoice(){
+    public void PostBalance(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
         String actualTitle=transactionPage.getPageTitle();
