@@ -19,7 +19,6 @@ public class LoginTest extends BaseTest {
         serverPage.selectMode(ServerMode.SERVER_MODE);
         serverPage.clickRetrieveDB();
         ScrollingUtils.scrollDown(driver);
-//        loginPage.selectDB(DB.NADA922);
         loginPage=serverPage.clickSaveSettingsBtn();
         loginPage.setUsername(JsonHelper.getJsonKeyValue(JsonDataFilePath,"username"));
         loginPage.setPassword(JsonHelper.getJsonKeyValue(JsonDataFilePath,"password"));
@@ -32,6 +31,6 @@ public class LoginTest extends BaseTest {
         String actualTitle=dashboardPage.getPageTitle();
         String expectedTitle="Dashboard";
         dashboardPage.navigateToTransactionPage();
-        AssertionExecutor.hard.assertTrue(actualTitle.contains(expectedTitle));
+        AssertionExecutor.hard.assertTrue(actualTitle.contains(expectedTitle),"Page Title is wrong");
     }
 }

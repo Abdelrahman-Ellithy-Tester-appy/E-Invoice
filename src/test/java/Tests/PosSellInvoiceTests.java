@@ -30,13 +30,13 @@ public class PosSellInvoiceTests extends BaseTest {
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         softAssert.assertAll();
     }
-    @Test(description = "Test User is able to post Sell Invoice",dependsOnMethods = "validLogin",retryAnalyzer = RetryAnalyzer.class)
+    @Test(description = "Test User is able to post Sell Invoice",dependsOnMethods = "validLogin" ,retryAnalyzer = RetryAnalyzer.class)
     public void POSPostInvoice(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
         String actualTitle=transactionPage.getPageTitle();
         String expectedTitle="Transactions";
-        softAssert.assertTrue(actualTitle.contains(expectedTitle));
+        softAssert.assertTrue(actualTitle.contains(expectedTitle),"Page Title is wrong");
         var posSellInvoicePage=transactionPage.navigateToPOSSellInvoicePage();
         var invoicePage=posSellInvoicePage.clickAddBtn();
         invoicePage.selectClient(Client.ghhhhhhkhh);
@@ -47,7 +47,7 @@ public class PosSellInvoiceTests extends BaseTest {
         invoicePage.clickYesToWarning();
         invoicePage.postInvoice();
         invoicePage.clickYesToWarning();
-        softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible());
+        softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible(),"Success Message is not visible");
         softAssert.assertAll();
     }
 }

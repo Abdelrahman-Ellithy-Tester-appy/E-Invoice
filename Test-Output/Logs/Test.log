@@ -1,248 +1,374 @@
-2024-11-27 21:38:30 DEBUG TestNG - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\E-Invoice\TestRunner.xml"
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:null] 1041438139
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -338444484
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE BaseTest.tareDown()[pri:0, instance:null] 137009089
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:null] 1041438139
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -338444484
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE BaseTest.tareDown()[pri:0, instance:null] 137009089
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] -182516294
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE PosSellInvoiceTests.POSPostInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371] -1947549730
-2024-11-27 21:38:30 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR PosSellInvoiceTests.POSPostInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
-2024-11-27 21:38:30 TRACE Graph - [Graph]   REMOVED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM INDEPENDENT OBJECTS
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE PosSellInvoiceTests.POSPrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371] -278346759
-2024-11-27 21:38:30 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR PosSellInvoiceTests.POSPrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
-2024-11-27 21:38:30 TRACE Graph - [Graph]   REMOVED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM INDEPENDENT OBJECTS
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR PosSellInvoiceTests.POSPostInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
-2024-11-27 21:38:30 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR PosSellInvoiceTests.POSPrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
-2024-11-27 21:38:30 TRACE Graph - [Graph]   REMOVED PRED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM NODE PosSellInvoiceTests.POSPrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371]
-2024-11-27 21:38:30 TRACE Graph - [Graph]   REMOVED PRED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM NODE PosSellInvoiceTests.POSPostInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371]
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph]               LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
-2024-11-27 21:38:30 TRACE Graph - [Graph]               PosSellInvoiceTests.POSPostInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371]
-2024-11-27 21:38:30 TRACE Graph - [Graph]               PosSellInvoiceTests.POSPrintInvoice()[pri:0, instance:Tests.PosSellInvoiceTests@5fd62371]
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:Tests.LoginTest@464649c] -2001467839
-2024-11-27 21:38:30 TRACE Graph - [Graph] ================ SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] =============== DONE SORTING
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== SORTED NODES
-2024-11-27 21:38:30 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-11-27 21:38:31 INFO  logsUtils - [94mGetting Timestamp: 2024-11-27[0m
-2024-11-27 21:38:31 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:38:31 INFO  logsUtils - [94m---------------------------------------------[0m
-2024-11-27 21:38:31 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
-2024-11-27 21:38:31 INFO  logsUtils - [94m---------------------------------------------[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-11-27 21:38:31 INFO  logsUtils - [38;5;200m[SUITE STARTED]: FRAMEWORK TEST [SUITE STARTED][0m
-2024-11-27 21:38:31 INFO  logsUtils - [95m[ALL TESTS STARTED]: ِMOBILE ANDROID [ALL TESTS STARTED][0m
-2024-11-27 21:38:31 INFO  logsUtils - [94mReading value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully read value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:38:31 INFO  logsUtils - [94mReading value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully read value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:38:31 INFO  logsUtils - [94mReading value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully read value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:38:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:38:38 INFO  logsUtils - [92mDriver Created[0m
-2024-11-27 21:38:38 INFO  logsUtils - [94m[START] TESTCASE validLogin [STARTED][0m
-2024-11-27 21:38:38 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:38:38 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:38:39 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.className: android.widget.Switch[0m
-2024-11-27 21:38:40 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.className: android.widget.Switch[0m
-2024-11-27 21:38:40 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:38:40 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:38:41 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //android.widget.Button[@content-desc="Local - داخلي" or @content-desc="Server - خارجي" ][0m
-2024-11-27 21:38:41 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //android.widget.Button[@content-desc="Local - داخلي" or @content-desc="Server - خارجي" ][0m
-2024-11-27 21:38:42 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Server - خارجي[0m
-2024-11-27 21:38:42 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Server - خارجي[0m
-2024-11-27 21:38:43 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Retrieve Database[0m
-2024-11-27 21:38:43 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Retrieve Database[0m
-2024-11-27 21:38:44 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
-2024-11-27 21:38:44 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
-2024-11-27 21:38:45 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@4c635edc][0m
-2024-11-27 21:38:46 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: SAVE SETTINGS[0m
-2024-11-27 21:38:46 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: SAVE SETTINGS[0m
-2024-11-27 21:38:48 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
-2024-11-27 21:38:49 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
-2024-11-27 21:38:49 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
-2024-11-27 21:38:49 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
-2024-11-27 21:39:00 INFO  logsUtils - [94mWaiting for Element To Disappear: AppiumBy.accessibilityId: Save[0m
-2024-11-27 21:39:00 INFO  logsUtils - [94mReading value for key: username from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:00 INFO  logsUtils - [92mSuccessfully read value for key: username from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:00 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:00 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:00 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
-2024-11-27 21:39:00 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
-2024-11-27 21:39:01 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
-2024-11-27 21:39:01 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
-2024-11-27 21:39:01 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
-2024-11-27 21:39:01 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {script=mobile: pressKey, args=[{keycode=66}]}][0m
-2024-11-27 21:39:01 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@63f9ddf9[0m
-2024-11-27 21:39:01 INFO  logsUtils - [94mReading value for key: password from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:01 INFO  logsUtils - [92mSuccessfully read value for key: password from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:02 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
-2024-11-27 21:39:02 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
-2024-11-27 21:39:03 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
-2024-11-27 21:39:04 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
-2024-11-27 21:39:04 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
-2024-11-27 21:39:04 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {script=mobile: pressKey, args=[{keycode=66}]}][0m
-2024-11-27 21:39:04 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@1aedf08d[0m
-2024-11-27 21:39:04 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
-2024-11-27 21:39:04 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
-2024-11-27 21:39:06 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@43c39321][0m
-2024-11-27 21:39:06 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
-2024-11-27 21:39:06 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
-2024-11-27 21:39:08 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@2e3f324e][0m
-2024-11-27 21:39:08 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(2)[0m
-2024-11-27 21:39:08 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(2)[0m
-2024-11-27 21:39:09 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
-2024-11-27 21:39:09 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
-2024-11-27 21:39:10 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {script=mobile: pressKey, args=[{keycode=66}]}][0m
-2024-11-27 21:39:10 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@987a0bb[0m
-2024-11-27 21:39:11 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(3)[0m
-2024-11-27 21:39:11 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(3)[0m
-2024-11-27 21:39:13 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
-2024-11-27 21:39:13 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
-2024-11-27 21:39:14 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {script=mobile: pressKey, args=[{keycode=66}]}][0m
-2024-11-27 21:39:14 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@6060146b[0m
-2024-11-27 21:39:15 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(4)[0m
-2024-11-27 21:39:15 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(4)[0m
-2024-11-27 21:39:16 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
-2024-11-27 21:39:16 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
-2024-11-27 21:39:17 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {script=mobile: pressKey, args=[{keycode=66}]}][0m
-2024-11-27 21:39:17 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@32a8ca06[0m
-2024-11-27 21:39:18 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: LOGIN[0m
-2024-11-27 21:39:18 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: LOGIN[0m
-2024-11-27 21:39:19 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
-2024-11-27 21:39:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
-2024-11-27 21:39:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
-2024-11-27 21:39:22 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:22 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.view.View").instance(12)[0m
-2024-11-27 21:39:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.view.View").instance(12)[0m
-2024-11-27 21:39:23 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:23 INFO  logsUtils - [94mWait For Element To Be Visible: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:23 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:23 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:23 INFO  logsUtils - [92mHard Assert:  - Condition is true[0m
-2024-11-27 21:39:23 INFO  logsUtils - [92m[PASSED] TESTCASE validLogin [PASSED][0m
-2024-11-27 21:39:24 INFO  logsUtils - [94mexecutewith Arguments: [quit][0m
-2024-11-27 21:39:24 INFO  logsUtils - [94mDriver quit[0m
-2024-11-27 21:39:24 INFO  logsUtils - [94mReading value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:24 INFO  logsUtils - [92mSuccessfully read value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:24 INFO  logsUtils - [94mReading value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:24 INFO  logsUtils - [92mSuccessfully read value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:24 INFO  logsUtils - [94mReading value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:24 INFO  logsUtils - [92mSuccessfully read value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
-2024-11-27 21:39:24 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:29 INFO  logsUtils - [92mDriver Created[0m
-2024-11-27 21:39:29 INFO  logsUtils - [94m[START] TESTCASE POSPostInvoice [STARTED][0m
-2024-11-27 21:39:29 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:29 INFO  logsUtils - [94mWait For Element To Be Visible: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:29 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:29 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:29 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:29 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:29 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:30 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:30 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
-2024-11-27 21:39:30 INFO  logsUtils - [92mSoft Assert: Condition is true[0m
-2024-11-27 21:39:30 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: POS Sell Invoice[0m
-2024-11-27 21:39:30 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: POS Sell Invoice[0m
-2024-11-27 21:39:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-11-27 21:39:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
-2024-11-27 21:39:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
-2024-11-27 21:39:32 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:33 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:33 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:33 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:34 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:34 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:35 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:35 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:35 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:36 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:36 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:36 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:37 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:37 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:37 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:38 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:38 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:39 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:39 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:39 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:40 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:40 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:40 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:40 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:41 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:41 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:41 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:42 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:42 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:43 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:43 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:43 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:43 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:44 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:44 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:44 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:45 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:45 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:45 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:46 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:46 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:47 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:47 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:47 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:47 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:48 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:48 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:48 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:49 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:49 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:49 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:49 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:50 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:50 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:51 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:51 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:51 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:51 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:52 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //*[contains(@content-desc, 'Loading')][0m
-2024-11-27 21:39:53 INFO  logsUtils - [94mexecutewith Arguments: [screenshot][0m
-2024-11-27 21:39:53 INFO  logsUtils - [94mGetting Screen Shoot[0m
-2024-11-27 21:39:53 INFO  logsUtils - [94mGetting Timestamp: 2024-11-27-9-39-53PM[0m
-2024-11-27 21:39:53 ERROR logsUtils - [91mRetry #1 for test: POSPostInvoice, on thread: main[0m
-2024-11-27 21:39:53 INFO  logsUtils - [93m[SKIPPED] TESTCASE POSPostInvoice [SKIPPED][0m
-2024-11-27 21:39:53 INFO  logsUtils - [94m[START] TESTCASE POSPostInvoice [STARTED][0m
-2024-11-27 21:40:03 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
-2024-11-27 21:40:04 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:45:47 DEBUG TestNG - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\E-Invoice\TestRunner.xml"
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:null] 1041438139
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -338444484
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE BaseTest.tareDown()[pri:0, instance:null] 137009089
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:null] 1041438139
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -338444484
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE BaseTest.tareDown()[pri:0, instance:null] 137009089
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] -182516294
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] -1643491996
+2024-11-28 13:45:48 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:45:48 TRACE Graph - [Graph]   REMOVED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM INDEPENDENT OBJECTS
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] -322058567
+2024-11-28 13:45:48 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:45:48 TRACE Graph - [Graph]   REMOVED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM INDEPENDENT OBJECTS
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:45:48 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:45:48 TRACE Graph - [Graph]   REMOVED PRED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM NODE ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:45:48 TRACE Graph - [Graph]   REMOVED PRED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM NODE ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph]               LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:45:48 TRACE Graph - [Graph]               ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:45:48 TRACE Graph - [Graph]               ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ADDING NODE NonBDDSetup.testEnd()[pri:0, instance:Tests.LoginTest@464649c] -2001467839
+2024-11-28 13:45:48 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:45:48 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:45:48 INFO  logsUtils - [94mGetting Timestamp: 2024-11-28[0m
+2024-11-28 13:45:48 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:45:48 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-11-28 13:45:48 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
+2024-11-28 13:45:48 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-28 13:45:48 INFO  logsUtils - [38;5;200m[SUITE STARTED]: FRAMEWORK TEST [SUITE STARTED][0m
+2024-11-28 13:45:48 INFO  logsUtils - [95m[ALL TESTS STARTED]: ِMOBILE ANDROID [ALL TESTS STARTED][0m
+2024-11-28 13:45:48 INFO  logsUtils - [94mReading value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully read value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:45:48 INFO  logsUtils - [94mReading value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully read value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:45:48 INFO  logsUtils - [94mReading value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully read value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:45:48 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:45:57 INFO  logsUtils - [92mDriver Created[0m
+2024-11-28 13:45:57 INFO  logsUtils - [94m[START] TESTCASE validLogin [STARTED][0m
+2024-11-28 13:45:57 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:45:57 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:45:58 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.className: android.widget.Switch[0m
+2024-11-28 13:45:59 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.className: android.widget.Switch[0m
+2024-11-28 13:45:59 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:45:59 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:00 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //android.widget.Button[@content-desc="Local - داخلي" or @content-desc="Server - خارجي" ][0m
+2024-11-28 13:46:00 INFO  logsUtils - [94mfindElement/s found using Locator: By.xpath: //android.widget.Button[@content-desc="Local - داخلي" or @content-desc="Server - خارجي" ][0m
+2024-11-28 13:46:02 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Server - خارجي[0m
+2024-11-28 13:46:02 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Server - خارجي[0m
+2024-11-28 13:46:03 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Retrieve Database[0m
+2024-11-28 13:46:03 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Retrieve Database[0m
+2024-11-28 13:46:03 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:46:03 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:46:04 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@4c635edc][0m
+2024-11-28 13:46:06 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: SAVE SETTINGS[0m
+2024-11-28 13:46:06 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: SAVE SETTINGS[0m
+2024-11-28 13:46:07 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:46:07 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:46:08 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:46:08 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:46:09 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:46:19 INFO  logsUtils - [94mWaiting for Element To Disappear: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:46:19 INFO  logsUtils - [94mReading value for key: username from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:19 INFO  logsUtils - [92mSuccessfully read value for key: username from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:19 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:19 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:19 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-28 13:46:19 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-28 13:46:21 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-28 13:46:21 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-28 13:46:21 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(0)[0m
+2024-11-28 13:46:21 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:46:21 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@7ab63838[0m
+2024-11-28 13:46:21 INFO  logsUtils - [94mReading value for key: password from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:21 INFO  logsUtils - [92mSuccessfully read value for key: password from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-28 13:46:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-28 13:46:22 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-28 13:46:23 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-28 13:46:23 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(1)[0m
+2024-11-28 13:46:23 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:46:23 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@374c3975[0m
+2024-11-28 13:46:24 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:46:24 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:46:26 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@5cc1bf20][0m
+2024-11-28 13:46:26 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:46:26 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:46:28 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@4b4a2fa8][0m
+2024-11-28 13:46:28 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(2)[0m
+2024-11-28 13:46:28 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(2)[0m
+2024-11-28 13:46:29 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
+2024-11-28 13:46:29 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
+2024-11-28 13:46:30 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:46:30 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@6fb0261e[0m
+2024-11-28 13:46:30 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(3)[0m
+2024-11-28 13:46:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(3)[0m
+2024-11-28 13:46:32 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
+2024-11-28 13:46:32 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
+2024-11-28 13:46:34 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:46:34 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@3a45afd4[0m
+2024-11-28 13:46:35 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(4)[0m
+2024-11-28 13:46:35 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText").instance(4)[0m
+2024-11-28 13:46:37 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
+2024-11-28 13:46:37 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Company Building1 - مباني المؤسسة1[0m
+2024-11-28 13:46:38 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:46:38 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@7f5ce33e[0m
+2024-11-28 13:46:39 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: LOGIN[0m
+2024-11-28 13:46:40 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: LOGIN[0m
+2024-11-28 13:46:40 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
+2024-11-28 13:46:44 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
+2024-11-28 13:46:44 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Dashboard").instance(0)[0m
+2024-11-28 13:46:44 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:44 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:44 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.view.View").instance(12)[0m
+2024-11-28 13:46:44 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.view.View").instance(12)[0m
+2024-11-28 13:46:44 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:44 INFO  logsUtils - [94mWait For Element To Be Visible: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:45 INFO  logsUtils - [92mHard Assert:  - Condition is true[0m
+2024-11-28 13:46:45 INFO  logsUtils - [92m[PASSED] TESTCASE validLogin [PASSED][0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mexecutewith Arguments: [quit][0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mDriver quit[0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mReading value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:45 INFO  logsUtils - [92mSuccessfully read value for key: DeviceName from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mReading value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:45 INFO  logsUtils - [92mSuccessfully read value for key: AppActivity from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:45 INFO  logsUtils - [94mReading value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:45 INFO  logsUtils - [92mSuccessfully read value for key: AppPackage from JSON file: src/test/resources/TestData/TestData[0m
+2024-11-28 13:46:45 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:52 INFO  logsUtils - [92mDriver Created[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94m[START] TESTCASE PostReceiveBill [STARTED][0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mWait For Element To Be Visible: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:46:52 INFO  logsUtils - [92mSoft Assert: Condition is true[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill[0m
+2024-11-28 13:46:52 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill[0m
+2024-11-28 13:46:53 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:53 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:46:53 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
+2024-11-28 13:46:53 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
+2024-11-28 13:47:06 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //*[contains(@content-desc, 'Loading')][0m
+2024-11-28 13:47:06 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:47:06 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:47:06 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.Button").instance(1)[0m
+2024-11-28 13:47:06 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.Button").instance(1)[0m
+2024-11-28 13:47:07 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: ghhhhhhkhh - khhhghh[0m
+2024-11-28 13:47:07 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: ghhhhhhkhh - khhhghh[0m
+2024-11-28 13:47:08 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:47:08 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@52856ff9[0m
+2024-11-28 13:47:09 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().text("0")[0m
+2024-11-28 13:47:09 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().text("0")[0m
+2024-11-28 13:47:10 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=8}], script=mobile: pressKey}][0m
+2024-11-28 13:47:10 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@12670e55[0m
+2024-11-28 13:47:10 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:47:10 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@13dd7887[0m
+2024-11-28 13:47:10 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:47:10 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:47:12 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@67ceeffd][0m
+2024-11-28 13:47:12 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:47:12 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:47:14 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@28bd5015][0m
+2024-11-28 13:47:14 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:47:14 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:47:15 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@7e38e254][0m
+2024-11-28 13:47:16 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:47:16 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:47:26 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //*[contains(@content-desc, 'Loading')][0m
+2024-11-28 13:47:28 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Post[0m
+2024-11-28 13:47:28 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Post[0m
+2024-11-28 13:47:39 INFO  logsUtils - [92mSoft Assert: Condition is true: false - Success Message is not visible[0m
+2024-11-28 13:47:39 ERROR logsUtils - [91mSoft Assertions Completed and Failed. Validating all collected conditions.[0m
+2024-11-28 13:47:40 INFO  logsUtils - [94mexecutewith Arguments: [screenshot][0m
+2024-11-28 13:47:40 INFO  logsUtils - [94mGetting Screen Shoot[0m
+2024-11-28 13:47:40 INFO  logsUtils - [94mGetting Timestamp: 2024-11-28-1-47-40PM[0m
+2024-11-28 13:47:40 ERROR logsUtils - [91mRetry #1 for test: PostReceiveBill, on thread: main[0m
+2024-11-28 13:47:40 INFO  logsUtils - [93m[SKIPPED] TESTCASE PostReceiveBill [SKIPPED][0m
+2024-11-28 13:47:40 INFO  logsUtils - [94m[START] TESTCASE PostReceiveBill [STARTED][0m
+2024-11-28 13:47:50 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
+2024-11-28 13:47:50 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:48:00 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
+2024-11-28 13:48:00 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:48:10 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
+2024-11-28 13:48:10 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:48:11 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:11 INFO  logsUtils - [94mWait For Element To Be Visible: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:11 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:11 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:11 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:48:11 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:48:11 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:11 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:12 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:48:12 INFO  logsUtils - [92mSoft Assert: Condition is true[0m
+2024-11-28 13:48:12 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill[0m
+2024-11-28 13:48:12 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill[0m
+2024-11-28 13:48:12 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:48:12 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:48:12 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
+2024-11-28 13:48:12 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
+2024-11-28 13:48:24 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //*[contains(@content-desc, 'Loading')][0m
+2024-11-28 13:48:24 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:48:24 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:48:24 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.Button").instance(1)[0m
+2024-11-28 13:48:24 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.Button").instance(1)[0m
+2024-11-28 13:48:26 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: ghhhhhhkhh - khhhghh[0m
+2024-11-28 13:48:26 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: ghhhhhhkhh - khhhghh[0m
+2024-11-28 13:48:27 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:48:27 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@738a39cc[0m
+2024-11-28 13:48:28 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().text("0")[0m
+2024-11-28 13:48:28 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().text("0")[0m
+2024-11-28 13:48:28 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=8}], script=mobile: pressKey}][0m
+2024-11-28 13:48:28 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@71d99732[0m
+2024-11-28 13:48:29 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:48:29 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@6b7c4734[0m
+2024-11-28 13:48:29 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:48:29 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:48:31 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@351ede23][0m
+2024-11-28 13:48:31 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:48:31 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:48:33 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@1b19712f][0m
+2024-11-28 13:48:33 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:48:33 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:48:34 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@7884f722][0m
+2024-11-28 13:48:35 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:48:35 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:48:45 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //*[contains(@content-desc, 'Loading')][0m
+2024-11-28 13:48:47 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Post[0m
+2024-11-28 13:48:47 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Post[0m
+2024-11-28 13:48:58 INFO  logsUtils - [92mSoft Assert: Condition is true: false - Success Message is not visible[0m
+2024-11-28 13:48:58 ERROR logsUtils - [91mSoft Assertions Completed and Failed. Validating all collected conditions.[0m
+2024-11-28 13:48:59 INFO  logsUtils - [94mexecutewith Arguments: [screenshot][0m
+2024-11-28 13:48:59 INFO  logsUtils - [94mGetting Screen Shoot[0m
+2024-11-28 13:48:59 INFO  logsUtils - [94mGetting Timestamp: 2024-11-28-1-48-59PM[0m
+2024-11-28 13:48:59 INFO  logsUtils - [91m[FAILED] TESTCASE PostReceiveBill [FAILED][0m
+2024-11-28 13:48:59 INFO  logsUtils - [94m[START] TESTCASE PrintReceiveBill [STARTED][0m
+2024-11-28 13:49:09 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
+2024-11-28 13:49:09 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:49:19 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
+2024-11-28 13:49:20 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:49:30 INFO  logsUtils - [94mnavigatewith Arguments: [][0m
+2024-11-28 13:49:30 INFO  logsUtils - [94mexecutewith Arguments: [goBack][0m
+2024-11-28 13:49:30 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:30 INFO  logsUtils - [94mWait For Element To Be Visible: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:49:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().description("Transactions").instance(0)[0m
+2024-11-28 13:49:31 INFO  logsUtils - [92mSoft Assert: Condition is true[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill[0m
+2024-11-28 13:49:31 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill[0m
+2024-11-28 13:49:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:49:31 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:49:32 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
+2024-11-28 13:49:32 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Add[0m
+2024-11-28 13:49:43 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //*[contains(@content-desc, 'Loading')][0m
+2024-11-28 13:49:43 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:49:43 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-11-28 13:49:43 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.Button").instance(1)[0m
+2024-11-28 13:49:43 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.Button").instance(1)[0m
+2024-11-28 13:49:45 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: ghhhhhhkhh - khhhghh[0m
+2024-11-28 13:49:45 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: ghhhhhhkhh - khhhghh[0m
+2024-11-28 13:49:46 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:49:46 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@83e635f[0m
+2024-11-28 13:49:47 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().text("0")[0m
+2024-11-28 13:49:47 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.androidUIAutomator: new UiSelector().text("0")[0m
+2024-11-28 13:49:47 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=8}], script=mobile: pressKey}][0m
+2024-11-28 13:49:47 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@8ee03f5[0m
+2024-11-28 13:49:48 INFO  logsUtils - [94mexecutewith Arguments: [executeScript, {args=[{keycode=66}], script=mobile: pressKey}][0m
+2024-11-28 13:49:48 INFO  logsUtils - [94mPressed key code: io.appium.java_client.android.nativekey.KeyEvent@2b3b1124[0m
+2024-11-28 13:49:48 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:49:48 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:49:50 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@7c682e26][0m
+2024-11-28 13:49:50 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:49:50 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:49:52 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@2cc34cd5][0m
+2024-11-28 13:49:52 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:49:52 INFO  logsUtils - [94mexecutewith Arguments: [getCurrentWindowSize][0m
+2024-11-28 13:49:52 INFO  logsUtils - [94mexecuteScriptwith Arguments: [mobile: scrollGesture, [Ljava.lang.Object;@2c5708e7][0m
+2024-11-28 13:49:54 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:49:54 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Save[0m
+2024-11-28 13:50:05 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //*[contains(@content-desc, 'Loading')][0m
+2024-11-28 13:50:07 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Print[0m
+2024-11-28 13:50:07 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Print[0m
+2024-11-28 13:50:08 INFO  logsUtils - [94mGetting Attribute: 'content-desc' from Element: AppiumBy.accessibilityId: Receive Bill A4[0m
+2024-11-28 13:50:08 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill A4[0m
+2024-11-28 13:50:08 INFO  logsUtils - [94mfindElement/s found using Locator: AppiumBy.accessibilityId: Receive Bill A4[0m
+2024-11-28 13:50:08 INFO  logsUtils - [92mSoft Assert: Condition is true: true - Page Title is wrong[0m
+2024-11-28 13:50:08 INFO  logsUtils - [92mSoft Assertions Completed and Passed. Validating all collected conditions.[0m
+2024-11-28 13:50:08 INFO  logsUtils - [92m[PASSED] TESTCASE PrintReceiveBill [PASSED][0m
+2024-11-28 13:50:08 INFO  logsUtils - [94mexecutewith Arguments: [quit][0m
+2024-11-28 13:50:08 INFO  logsUtils - [94mDriver quit[0m
+2024-11-28 13:50:08 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-11-28 13:50:08 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-11-28 13:50:09 INFO  logsUtils - Log file successfully attached to the Allure report.
+2024-11-28 13:50:09 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: ِMOBILE ANDROID [ALL TESTS COMPLETED][0m
+2024-11-28 13:50:09 INFO  logsUtils - [38;5;200m[SUITE FINISHED]: FRAMEWORK TEST [SUITE FINISHED][0m
+2024-11-28 13:50:09 TRACE Graph - [Graph] ADDING NODE LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] -182516294
+2024-11-28 13:50:09 TRACE Graph - [Graph] ADDING NODE ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] -1643491996
+2024-11-28 13:50:09 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:50:09 TRACE Graph - [Graph]   REMOVED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM INDEPENDENT OBJECTS
+2024-11-28 13:50:09 TRACE Graph - [Graph] ADDING NODE ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] -322058567
+2024-11-28 13:50:09 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:50:09 TRACE Graph - [Graph]   REMOVED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM INDEPENDENT OBJECTS
+2024-11-28 13:50:09 TRACE Graph - [Graph] ================ SORTING
+2024-11-28 13:50:09 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:50:09 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371] ==> LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:50:09 TRACE Graph - [Graph]   REMOVED PRED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM NODE ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:50:09 TRACE Graph - [Graph]   REMOVED PRED LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c] FROM NODE ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:50:09 TRACE Graph - [Graph] =============== DONE SORTING
+2024-11-28 13:50:09 TRACE Graph - [Graph] ====== SORTED NODES
+2024-11-28 13:50:09 TRACE Graph - [Graph]               LoginTest.validLogin()[pri:0, instance:Tests.LoginTest@464649c]
+2024-11-28 13:50:09 TRACE Graph - [Graph]               ReceiveBillTests.PostReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:50:09 TRACE Graph - [Graph]               ReceiveBillTests.PrintReceiveBill()[pri:0, instance:Tests.ReceiveBillTests@5fd62371]
+2024-11-28 13:50:09 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-11-28 13:50:09 INFO  logsUtils - [94mTotal Execution Time is: 4 Min 20 Sec 375 Mills[0m
+2024-11-28 13:50:09 INFO  logsUtils - [94m------------------------------------------[0m
+2024-11-28 13:50:09 INFO  logsUtils - [96m------- Ellithium  Engine TearDown -------[0m
+2024-11-28 13:50:09 INFO  logsUtils - [94m------------------------------------------[0m
+2024-11-28 13:50:09 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-28 13:50:09 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-28 13:50:09 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-28 13:50:09 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
+2024-11-28 13:50:09 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
+2024-11-28 13:50:09 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
+2024-11-28 13:50:16 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
+2024-11-28 13:50:16 INFO  logsUtils - [94mGetting Timestamp: 2024-11-28-1-50-16PM[0m
+2024-11-28 13:50:16 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-11-28 13:50:16 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-11-28-1-50-16PM.html[0m
+2024-11-28 13:50:17 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m

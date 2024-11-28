@@ -3,7 +3,7 @@
     <test name="ِMobile Android">
         <classes>
             <class name="Tests.LoginTest"/>
-            <class name="Tests.PosSellInvoiceTests"/>
+            <class name="Tests.ClientVendorTests"/>
         </classes>
     </test>
 </suite>
