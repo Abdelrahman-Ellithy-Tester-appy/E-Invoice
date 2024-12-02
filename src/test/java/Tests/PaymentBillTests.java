@@ -10,7 +10,7 @@ import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.Test;
 import utility.ScrollingUtils;
 public class PaymentBillTests extends BaseTest {
-    @Test(priority = 1,description = "Test User is able to Print client Balance",retryAnalyzer = RetryAnalyzer.class)
+    @Test(dependsOnMethods = "validLogin",priority = 1,description = "Test User is able to Print client Balance",retryAnalyzer = RetryAnalyzer.class)
     @Severity(SeverityLevel.CRITICAL)
     public void PrintBalance(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import utility.ScrollingUtils;
 
 public class ClientVendorTests extends BaseTest {
-    @Test(priority = 1,description = "Test User is able to Post client debit",retryAnalyzer = RetryAnalyzer.class)
+    @Test( dependsOnMethods ="validLogin", priority = 1,description = "Test User is able to Post client debit",retryAnalyzer = RetryAnalyzer.class)
     public void PostBalance(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
