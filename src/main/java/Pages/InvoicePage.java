@@ -17,6 +17,7 @@ public class InvoicePage {
     private final By PosPDFElement= AppiumBy.id("com.android.printspooler:id/title");
     private final By PurchasePDFElement= AppiumBy.accessibilityId("Purchase Invoice A4");
     private final By ReceiveBillPDFElement= AppiumBy.accessibilityId("Receive Bill A4");
+    private final By PaymentBillPDFElement= AppiumBy.accessibilityId("Payment Bill A4");
     private final By selectElement= AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.Button\").instance(1)");
     private final By itemFieldTypeElement= AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(3)");
     private final By printElement=AppiumBy.accessibilityId("Print");
@@ -28,7 +29,7 @@ public class InvoicePage {
     public InvoicePage(AndroidDriver driver){
         this.driver=driver;
         driverAction=new DriverActions(this.driver);
-        driverAction.waitForElementToDisappear(loadingElement,30,200);
+        driverAction.waitForElementToDisappear(loadingElement,10,200);
     }
     public void selectClient(Client client){
         driverAction.clickOnElement(selectElement);
@@ -88,6 +89,14 @@ public class InvoicePage {
             throw new AssertionError();
         }
     }
+    public String getPaymentBillPDFPageTitle(){
+        try {
+            return driverAction.getAttributeValue(PaymentBillPDFElement, "content-desc", 10, 200);
+        }
+        catch (Exception e){
+            throw new AssertionError();
+        }
+    }
     public boolean isPostSuccessMessageVisible(){
         try {
             driverAction.waitForElementToBeVisible(successElement);
@@ -106,11 +115,13 @@ public class InvoicePage {
     }
     public void setAmount(){
         driverAction.clickOnElement(amountElement);
+        driver.findElement(amountElement).clear();
         driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
         driver.pressKey(new KeyEvent(AndroidKey.ENTER));
     }
     public void setDebit(){
         driverAction.clickOnElement(debitElement);
+        driver.findElement(debitElement).clear();
         driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
         driver.pressKey(new KeyEvent(AndroidKey.ENTER));
     }

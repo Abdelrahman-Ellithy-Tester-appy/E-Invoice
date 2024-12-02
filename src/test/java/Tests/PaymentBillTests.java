@@ -9,18 +9,18 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.Test;
 import utility.ScrollingUtils;
-
-public class ReceiveBillTests extends BaseTest {
-    @Test(priority = 1,description = "Test User is able to print Receive Bill",dependsOnMethods = "validLogin" ,retryAnalyzer = RetryAnalyzer.class)
+public class PaymentBillTests extends BaseTest {
+    @Test(priority = 1,description = "Test User is able to Print client Balance",retryAnalyzer = RetryAnalyzer.class)
     @Severity(SeverityLevel.CRITICAL)
-    public void PrintReceiveBill(){
+    public void PrintBalance(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
         String actualTitle=transactionPage.getPageTitle();
         String expectedTitle="Transactions";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
-        var receiveBillPage=transactionPage.navigateToReceiveBillPage();
-        var invoicePage=receiveBillPage.clickAddBtn();
+        ScrollingUtils.scrollDown(driver);
+        var purchaseInvoicePage=transactionPage.navigateToPaymentBillPage();
+        var invoicePage=purchaseInvoicePage.clickAddBtn();
         invoicePage.selectClient(Client.ghhhhhhkhh);
         invoicePage.setAmount();
         ScrollingUtils.scrollDown(driver);
@@ -28,21 +28,22 @@ public class ReceiveBillTests extends BaseTest {
         ScrollingUtils.scrollDown(driver);
         invoicePage.saveInvoice();
         invoicePage.printInvoice();
-        expectedTitle="Receive Bill A4";
-        actualTitle=invoicePage.getReceiveBillPDFPageTitle();
+        actualTitle=invoicePage.getPaymentBillPDFPageTitle();
+        expectedTitle="Payment Bill A4";
         softAssert.assertTrue(actualTitle.contains(expectedTitle),"Page Title is wrong");
         softAssert.assertAll();
     }
-    @Test(priority = 2,description = "Test User is able to post Receive Bill",dependsOnMethods = "validLogin" ,retryAnalyzer = RetryAnalyzer.class)
+    @Test(priority = 2,description = "Test User is able to post client Balance",retryAnalyzer = RetryAnalyzer.class)
     @Severity(SeverityLevel.CRITICAL)
-    public void PostReceiveBill(){
+    public void PostBalance(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
         String actualTitle=transactionPage.getPageTitle();
         String expectedTitle="Transactions";
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
-        var receiveBillPage=transactionPage.navigateToReceiveBillPage();
-        var invoicePage=receiveBillPage.clickAddBtn();
+        ScrollingUtils.scrollDown(driver);
+        var purchaseInvoicePage=transactionPage.navigateToPaymentBillPage();
+        var invoicePage=purchaseInvoicePage.clickAddBtn();
         invoicePage.selectClient(Client.ghhhhhhkhh);
         invoicePage.setAmount();
         ScrollingUtils.scrollDown(driver);
@@ -50,7 +51,7 @@ public class ReceiveBillTests extends BaseTest {
         ScrollingUtils.scrollDown(driver);
         invoicePage.saveInvoice();
         invoicePage.postInvoice();
-        softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible(),"Success Message is not visible");
+        softAssert.assertTrue(invoicePage.isPostSuccessMessageVisible(),"Balance is posted Message is not visible");
         softAssert.assertAll();
     }
 }

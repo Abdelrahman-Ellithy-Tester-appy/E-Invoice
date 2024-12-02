@@ -10,8 +10,8 @@ public class BaseInvoicesPage {
     protected AndroidDriver driver;
     protected DriverActions driverActions;
     protected final By addElement= AppiumBy.accessibilityId("Add");
-    protected final By backElement= AppiumBy.accessibilityId("Back");
     protected final By warningYesElement= AppiumBy.accessibilityId("Yes");
+    protected final By loadingElement= AppiumBy.xpath("//*[contains(@content-desc, 'Loading')]");
     public BaseInvoicesPage(AndroidDriver driverParam){
         this.driver=driverParam;
         driverActions=new DriverActions(driver);

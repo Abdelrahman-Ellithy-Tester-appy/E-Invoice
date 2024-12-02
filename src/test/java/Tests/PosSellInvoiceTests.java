@@ -5,10 +5,13 @@ import Ellithium.Utilities.assertion.AssertionExecutor;
 import Ellithium.Utilities.helpers.JsonHelper;
 import Ellithium.core.execution.Analyzer.RetryAnalyzer;
 import Pages.*;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.Test;
 import utility.ScrollingUtils;
 public class PosSellInvoiceTests extends BaseTest {
-    @Test(description = "Test User is able to print Sell Invoice", dependsOnMethods ="validLogin",retryAnalyzer = RetryAnalyzer.class)
+    @Test(priority = 1,description = "Test User is able to print Sell Invoice", dependsOnMethods ="validLogin",retryAnalyzer = RetryAnalyzer.class)
+    @Severity(SeverityLevel.CRITICAL)
     public void POSPrintInvoice(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
@@ -30,7 +33,8 @@ public class PosSellInvoiceTests extends BaseTest {
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         softAssert.assertAll();
     }
-    @Test(description = "Test User is able to post Sell Invoice",dependsOnMethods = "validLogin" ,retryAnalyzer = RetryAnalyzer.class)
+    @Test(priority = 2,description = "Test User is able to post Sell Invoice",dependsOnMethods = "validLogin" ,retryAnalyzer = RetryAnalyzer.class)
+    @Severity(SeverityLevel.CRITICAL)
     public void POSPostInvoice(){
         AssertionExecutor.soft softAssert=new AssertionExecutor.soft();
         var transactionPage=new TransactionPage(driver);
