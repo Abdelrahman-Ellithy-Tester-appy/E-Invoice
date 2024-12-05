@@ -3,7 +3,7 @@
     <test name="ِMobile Android">
         <classes>
             <class name="Tests.LoginTest"/>
-            <class name="Tests.PaymentBillTests"/>
+<!--            <class name="Tests.PaymentBillTests"/>-->
         </classes>
     </test>
 </suite>

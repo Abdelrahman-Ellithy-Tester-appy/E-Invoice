@@ -1,20 +1,12 @@
 package Base;
 
-import Ellithium.Utilities.assertion.AssertionExecutor;
 import Ellithium.Utilities.helpers.JsonHelper;
 import Ellithium.core.base.NonBDDSetup;
 import Ellithium.core.driver.DriverFactory;
 import Ellithium.core.driver.DriverType;
-import Pages.*;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
-import utility.ScrollingUtils;
-
-import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 

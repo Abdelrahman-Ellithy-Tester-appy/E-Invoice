@@ -14,7 +14,7 @@ public class InvoicePage {
     private final By saveElement= AppiumBy.accessibilityId("Save");
     private final By successElement= AppiumBy.accessibilityId("Success");
     private final By warningYesElement=AppiumBy.accessibilityId("Yes");
-    private final By PosPDFElement= AppiumBy.id("com.android.printspooler:id/title");
+    private final By PosPDFElement= AppiumBy.id("Pos Sell Invoice A4");
     private final By PurchasePDFElement= AppiumBy.accessibilityId("Purchase Invoice A4");
     private final By ReceiveBillPDFElement= AppiumBy.accessibilityId("Receive Bill A4");
     private final By PaymentBillPDFElement= AppiumBy.accessibilityId("Payment Bill A4");
